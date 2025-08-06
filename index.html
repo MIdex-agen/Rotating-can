@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D-Fruit Slider Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="shortcut icon" href="images/fav.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="nav-logo">Fruity</a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">partnership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav-close" id="nav-close"><i class="ri-close-line"></i></div>
+            </div>
+
+            <div class="nav-action">
+                <i class="ri-user-line"></i>
+                <i class="ri-shopping-cart-line"></i>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+   <main>
+      <section class="home" id="home">
+        <div class="swiper first-swiper">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide home-data"
+              style="--background-color: hsl(79, 66%, 72%)"
+            >
+              <h1 class="home-title home-title-animate">Pear</h1>
+            </div>
+
+            <div
+              class="swiper-slide home-data"
+              style="--background-color: hsl(0, 100%, 85%)"
+            >
+              <h1 class="home-title">Apple</h1>
+            </div>
+
+            <div
+              class="swiper-slide home-data"
+              style="--background-color: hsl(242, 66%, 85%)"
+            >
+              <h1 class="home-title">Exotic</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="home-mockup" id="home-mockup"></div>
+
+                <div class="swiper second-swiper">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide home-fruit"
+            >
+              <img src="./img/pears.png" alt="" class="home-fruit-img home-fruit- home-fruit-animate">
+            </div>
+
+            <div
+              class="swiper-slide home-fruit"
+            >
+              <img src="./img/apples.png" alt="" class="home-fruit-img">
+            </div>
+
+            <div
+              class="swiper-slide home-fruit"
+            >
+              <img src="./img/passion.png" alt="" class="home-fruit-img">
+            </div>
+          </div>
+        </div>
+        
+        <a href="#" class="home-botton">Shop Taste</a>
+      </section>
+   </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
+    
